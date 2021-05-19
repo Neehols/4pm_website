@@ -1,0 +1,44 @@
+<!doctype HTML>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Heerlijkemuziek </title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="recensies_final_styles.css">
+	</head>
+	<body class="audioBody">
+	<div class="audioMain">
+		<div>
+			<nav class="Navigation">
+				<a class="navButton" href="index.html"> HOME </a>
+				<a class="navButton" href="final_band.html"> DE BAND </a>
+				<a class="navButton" id='current' href="final_audio.html"> AUDIO </a>
+				<a class="navButton" href="final_video.html"> VIDEO </a>
+				<a class="navButton" id='current' href="final_recensies.html"> RECENSIES </a>
+				<a class="navButton" href="final_enquete.html"> ENQUÊTE </a>
+				<a class="navButton" href="final_boeking.html"> BOEK ONS! </a>
+				<a class="navButton" href="final_contact.html"> CONTACT </a>
+			</nav>
+		</div>
+			<img class="big_logo" src="images/4pm.png">
+		<div class="h1_header">
+			<h1> RECENSIES </h1>
+		</div>
+		<p>Laat een reactie achter voor ons!</p>
+		<button onclick="newText()" id="placerButton"> Recensies </button>
+		
+		<input type="text" id="textplacer"><br>
+		
+		<div id="klanten" class="klanten">
+		
+		</div>
+		</div>
+	</div>
+	<script>
+	function newText(){
+		var x = document.getElementById("textplacer").value;
+		document.getElementById("klanten").innerHTML += "<br>" + "<div id='klant'>" + x + "</div>";
+	}
+	</script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+html {
+    background: url("images/background_band.png") no-repeat center;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.h1_header {
+    text-align: center;
+}
+
+.contactText {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-family: Karla, Arial, sans-serif;  
+    color: white;
+    font-size: 25px;
+}
+
+.contactIcon {
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,111 @@
+html {
+    background: url("images/background_band.png") no-repeat center;
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.h1_header {
+    text-align: center;
+}
+
+.bandTextWrapperTop {
+    margin: 0 auto;
+    margin-top: 90px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.9px;
+    line-height: 1.5;
+    display: relative;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 2px;
+}
+
+.bandTextWrapper {
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.9px;
+    line-height: 1.5;
+    display: relative;
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 2px;
+}
+
+.bandFotoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.bandFotoWrapper div{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.bandFotoWrapper img {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+.bandFoto {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}
+
+.naamStyling {
+    margin-top: 1%;
+    color: rgb(131, 182, 204);
+    font-size: 21.6px;
+    font-family: 'Karla', 'Georgia', serif;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.75) 1px 1px 2px;
+    margin-top: 2%;
+}
+
+.textStyling {
+    text-align: center;
+    height: 275px;
+    color: white;
+    max-width: 250px;
+    font-size: 15px;
+    font-family: 'Lora', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+.bandFotoWrapper{
+    margin-bottom: 30%;
+}
+
+.bandTextWrapperTop, .bandTextWrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+}

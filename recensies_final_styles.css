@@ -1,0 +1,100 @@
+/* KLANTEN */
+html, body {
+ margin: 0;
+ padding: 0;
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-color: #2d2d2d;
+}
+
+h1 {
+ max-width: 200px;
+}
+
+
+.klanten{
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+ .klant1{
+	 
+	 top: 10px;
+	 
+	 position: relative;
+	 
+	 left: 40px;
+	 
+	 float: left;
+	 
+	 width: 30%;
+	 
+	 margin: 20px auto;
+	 
+	 font-style: italic;
+	 
+ }
+ 
+ .klanttekst{
+	 line-height: 1.5;
+	 
+	 font-size: 18px;
+ }
+ 
+ .klanten{
+	 
+	 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	 
+	 color: #e9d5c0;
+	 
+	 border: none;
+	 
+	 clear: none;
+	 
+	 float: left;
+	 
+	 font-size: 16px;
+	 
+	 padding: 10px 0;
+	 
+	 line-height: 1.2;
+	 
+	 font-weight: 600;
+	 
+     font-family: Karla, Arial, sans-serif;
+ }
+
+ .klant_img{
+	 border-radius: 50%;
+ }
+ 
+ .Dashed_through{
+	 font-size: 50px;
+	 text-align: center;
+ }
+ 
+ .audioMain {
+ background-color: #83b6df;
+ background-blend-mode: multiply;
+ background-image: url("images/backgroundaudio.jpg");
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-size: 1000px 100vh;
+}
+
+.audioBody{
+	
+	background-color: #2d2d2d;
+	
+}
+
+
+.audioMain {
+	height: 100vh;
+	width: 1000px;	
+	margin: auto;
+	color: white;	
+	font-family: lora, georgia, serif;
+}
+
+/* KLANTEN - END */
